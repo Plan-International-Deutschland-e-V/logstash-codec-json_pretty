@@ -18,7 +18,7 @@ output {
 
 Example screenshot:
 
-![A screenshot of a computer terminal displaying log data in JSON format. The data appears to be from a firewall log indicating an 'iptables unhandled' event. The log includes timestamps, version numbers, IP and MAC addresses, port numbers, and other networking information such as protocol type (TCP), device name, and file path. The colors used in the terminal suggest syntax highlighting, with elements such as curly braces, property names, and strings in different colors for readability](./Screenshot-1.png)
+![A screenshot of log data in JSON format from the Logstash JSON Lines codec plugin project, showing a firewall log event with highlighted syntax for properties and values, including IP addresses, ports, and protocols.](./Screenshot-1.png)
 
 ## Documentation
 
