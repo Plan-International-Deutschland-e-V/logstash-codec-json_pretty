@@ -4,6 +4,22 @@ This is a plugin for [Logstash](https://github.com/elastic/logstash).
 
 It is fully free and fully open source. The license is Apache 2.0, meaning you are pretty much free to use it however you want in whatever way.
 
+## Example
+
+Logstash output config:
+
+```
+output {
+  stdout {
+    codec => json_pretty
+  }
+}
+```
+
+Example screenshot:
+
+![A screenshot of a computer terminal displaying log data in JSON format. The data appears to be from a firewall log indicating an 'iptables unhandled' event. The log includes timestamps, version numbers, IP and MAC addresses, port numbers, and other networking information such as protocol type (TCP), device name, and file path. The colors used in the terminal suggest syntax highlighting, with elements such as curly braces, property names, and strings in different colors for readability](./Screenshot-1.png)
+
 ## Documentation
 
 Logstash provides infrastructure to automatically generate documentation for this plugin. We use the asciidoc format to write documentation so any comments in the source code will be first converted into asciidoc and then into html. All plugin documentation are placed under one [central location](http://www.elastic.co/guide/en/logstash/current/).
